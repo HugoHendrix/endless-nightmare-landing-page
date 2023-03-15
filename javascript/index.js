@@ -1,5 +1,5 @@
 // obtém o botão do trailer e a janela modal
-var botaoTrailer = document.querySelector('.botao-trailer');
+var botaoTrailer = document.querySelector('.btn-trailer');
 var modal = document.querySelector('.modal');
 
 // quando o botão do trailer for clicado, exibe a janela modal

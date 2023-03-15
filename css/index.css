@@ -5,6 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     
 }
 
@@ -14,30 +16,21 @@ html {
 
 
 body {
+    text-align: center;
+    padding-top: 80px;
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
-    background: #3d3b3b url("/imagens/background-image.png") no-repeat  100% 100%;
+    background-image: url(/imagens/background-image.png);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
-    width: 100vw;
-}
 
-
-
-
-.headline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 65vh;
-    
 }
 
 
 h3 {
     font-size: 1.6rem;
-    font-weight: bold;
     line-height: 1.9rem;
     color: #ffff;
 }
@@ -53,14 +46,13 @@ h1 {
    font-family: 'Emilys Candy', cursive;
    line-height: 8rem;
    color:#FFC700 ;
-   text-align: center;
 
 }
 
 p {
     font-size: 1.8rem;
     font-weight: 400;
-    line-height: 2.4rem;
+    margin-bottom: 7.2rem;
     color: #ffffffb3;
 }
 
@@ -70,22 +62,24 @@ p {
 
 .primary-btn {
     border: none;
-    border-radius: 1rem;
-}
-
-
-.primary-btn  a{
-    padding: 1.2rem 2rem;
+    padding: 1.2rem 3.2rem;
     background-color: #FFC700; 
-    text-decoration: none;
     color: black;      
     font-weight: 700; 
     font-size: 1.8rem;
-    transition: 0.3ms ease-in-out;
+    transition: 0.5ms all ease-in-out;
 }
 
-.primary-btn  a:hover {
-    background-color: #a08629;
+.primary-btn  a{
+
+    text-decoration: none;
+   
+}
+
+ .secondary-btn:hover {
+    background-color: #FFC700;
+    color: #000;
+
 }
 
 
@@ -104,7 +98,7 @@ p {
 
 
 /* estilos para o botão do trailer */
-.botao-trailer {
+.btn-trailer {
     background-color: #000;
     color: #fff;
     border: none;
@@ -127,7 +121,7 @@ p {
     }
     
     .conteudo-modal {
-    width: 80%;
+    width: 70%;
     max-width: 800px;
     position: relative; /* para permitir que o botão de fechar fique sobre a janela modal */
     }
