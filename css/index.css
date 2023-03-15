@@ -20,7 +20,7 @@ body {
     padding-top: 80px;
     font-family: 'Inter', sans-serif;
     font-size: 1.6rem;
-    background-image: url("./imagens/background-image.png");
+    background-image: url("../imagens/background-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
